@@ -37,6 +37,11 @@ public class Login extends AppCompatActivity {
         initComponentes();
 
 
+        TextView esqueceuSenha = findViewById(R.id.esqueceu_senha);
+        esqueceuSenha.setOnClickListener(v -> {
+            Intent intent = new Intent(Login.this, EsqueceuSenhaActivity.class);
+            startActivity(intent);
+        });
 
         controller = new UsuarioController(getApplicationContext());
 

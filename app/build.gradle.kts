@@ -1,5 +1,6 @@
 plugins {
     id("com.android.application")
+    id("com.google.gms.google-services")
 
 }
 
@@ -39,6 +40,11 @@ dependencies {
 
     // Se usar coroutines (Kotlin) ou threads
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
+
+    implementation(platform("com.google.firebase:firebase-bom:34.4.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-auth")
+
 
     implementation(libs.activity)
     implementation(libs.constraintlayout)

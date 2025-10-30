@@ -1,0 +1,29 @@
+git{
+  "project_info": {
+    "project_number": "269294918355",
+    "project_id": "immigrant-economy-d23f5",
+    "storage_bucket": "immigrant-economy-d23f5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269294918355:android:82d2e5c269060b2cde9226",
+        "android_client_info": {
+          "package_name": "com.example.nossotcc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXFAiavbxVRRu287Ox5FJvr7pdEBnwkrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -5,6 +5,8 @@ plugins {
     // Versão do Android Gradle Plugin compatível com o seu Android Studio
     id("com.android.application") version "8.8.0" apply false
     id("com.android.library") version "8.8.0" apply false
+
+    id("com.google.gms.google-services") version "4.4.4" apply false
 }
 
 tasks.register("clean", Delete::class) {
