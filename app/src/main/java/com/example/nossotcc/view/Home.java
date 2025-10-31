@@ -9,7 +9,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import com.example.nossotcc.R;
@@ -27,7 +26,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Home extends AppCompatActivity {
+public class Home extends BaseActivity {
 
     private EditText etValor;
     private TextView tvResultado;

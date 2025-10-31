@@ -43,6 +43,7 @@ public class AppDataBase extends SQLiteOpenHelper {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        db.close();
         return retorno;
     }
 

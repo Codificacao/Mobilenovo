@@ -3,15 +3,12 @@ package com.example.nossotcc.view;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -20,7 +17,7 @@ import com.example.nossotcc.R;
 import com.example.nossotcc.controller.UsuarioController;
 
 
-public class Login extends AppCompatActivity {
+public class Login extends BaseActivity {
 
     UsuarioController controller;
     EditText username, password;

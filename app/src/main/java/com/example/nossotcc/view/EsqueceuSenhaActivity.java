@@ -1,7 +1,5 @@
 package com.example.nossotcc.view;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,7 +9,7 @@ import android.content.Intent;
 import com.example.nossotcc.R;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class EsqueceuSenhaActivity extends AppCompatActivity {
+public class EsqueceuSenhaActivity extends BaseActivity {
 
     private EditText emailRecuperacao;
     private Button btnRecuperar, btnVoltar;
