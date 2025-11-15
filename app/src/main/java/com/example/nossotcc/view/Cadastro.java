@@ -20,6 +20,7 @@ import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class Cadastro extends BaseActivity {
 
     private EditText nome, email, dataNasc, senha, confSenha;
