@@ -9,34 +9,34 @@
         android:id="@+id/etTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Título da meta"
+        android:hint="@string/t_tulo_da_meta"
         android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/etDescricao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Descrição"
+        android:hint="@string/descri_o"
         android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/etValor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Valor (R$)"
+        android:hint="@string/valor_r"
         android:inputType="numberDecimal"
         android:minHeight="48dp" />
 
     <Button
         android:id="@+id/btnAdicionar"
-        android:text="Adicionar Meta"
+        android:text="@string/adicionar_meta"
         android:layout_width="match_parent"
         android:backgroundTint="#4A90E2"
         android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/btnListar"
-        android:text="Listar Metas"
+        android:text="@string/listar_metas"
         android:backgroundTint="#4A90E2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -45,13 +45,13 @@
         android:id="@+id/etIndiceRemover"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Índice da meta para remover"
+        android:hint="@string/ndice_da_meta_para_remover"
         android:inputType="number"
         android:minHeight="48dp" />
 
     <Button
         android:id="@+id/btnRemover"
-        android:text="Remover Meta"
+        android:text="@string/remover_meta"
         android:backgroundTint="#4A90E2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -68,7 +68,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#4A90E2"
-        android:text="Voltar para Home"
+        android:text="@string/voltar_para_home"
         android:layout_marginTop="8dp"/>
 
 </LinearLayout>

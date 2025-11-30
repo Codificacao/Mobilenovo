@@ -9,14 +9,14 @@
         android:id="@+id/edtNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Descrição"
+        android:hint="@string/descri_oo"
         android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/edtValor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Valor"
+        android:hint="@string/valor"
         android:inputType="numberDecimal"
         android:minHeight="48dp" />
 
@@ -24,28 +24,28 @@
         android:id="@+id/edtCategoria"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Categoria"
+        android:hint="@string/categoria"
         android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/edtData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Data (DD/MM/AAAA)"
+        android:hint="@string/data_dd_mm_aaaa"
         android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/edtFormaPagamento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Forma de Pagamento"
+        android:hint="@string/forma_de_pagamento"
         android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/edtObservacoes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Observações"
+        android:hint="@string/observa_es"
         android:minHeight="48dp" />
 
     <Button
@@ -53,7 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#4A90E2"
-        android:text="Adicionar"/>
+        android:text="@string/adicionar"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
@@ -65,5 +65,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#4A90E2"
-        android:text="Voltar para Home"/>
+        android:text="@string/voltar_para_homeo"/>
 </LinearLayout>

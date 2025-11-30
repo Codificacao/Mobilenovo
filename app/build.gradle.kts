@@ -1,5 +1,3 @@
-import java.util.Properties // <--- 1. A SOLUÇÃO DO ERRO ESTÁ AQUI
-
 plugins {
     id("com.android.application")
     id("com.google.gms.google-services")
@@ -17,29 +15,16 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        // --- LENDO A CHAVE ---
-        val properties = Properties() // Agora funciona porque importamos lá em cima
-        val localPropertiesFile = project.rootProject.file("local.properties")
-        if (localPropertiesFile.exists()) {
-            localPropertiesFile.inputStream().use { inputStream ->
-                properties.load(inputStream)
-            }
-        }
 
-        val apiKey = properties.getProperty("apiKey") ?: ""
-        buildConfigField("String", "API_KEY", "\"$apiKey\"")
-        // ---------------------
-    }
+            }
 
     buildFeatures {
         viewBinding = true
         buildConfig = true
-        compose = true // Necessário para o Chatbot
+
     }
 
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
-    }
+
 
     kotlinOptions {
         jvmTarget = "1.8"
@@ -68,20 +53,9 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-auth")
 
-    // --- IA (GEMINI) ---
-    implementation("com.google.ai.client.generativeai:generativeai:0.9.0")
 
-    // --- INTERFACE DO CHATBOT (COMPOSE) ---
-    // O BOM garante que todas as versões do Compose sejam compatíveis
-    val composeBom = platform("androidx.compose:compose-bom:2024.04.01")
-    implementation(composeBom)
-    implementation("androidx.compose.ui:ui")
-    implementation("androidx.compose.material3:material3") // Design moderno
-    implementation("androidx.compose.ui:ui-tooling-preview")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
-    debugImplementation("androidx.compose.ui:ui-tooling")
 
-    // Libs do catálogo (libs.versions.toml)
+    // Libs do catálogo
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.core.ktx)

@@ -43,7 +43,7 @@
         android:layout_marginEnd="70dp"
         android:backgroundTint="#4A90E2"
         android:padding="15dp"
-        android:text="Login"
+        android:text="@string/loginn"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,23 +62,9 @@
         android:padding="15dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4A90E2"
-        android:text="Cadastro"
+        android:text="@string/cadastroo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnLogin" />
 
-    <Button
-        android:id="@+id/btnSair"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
-        android:layout_marginEnd="70dp"
-        android:textSize="18sp"
-        android:padding="15dp"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="#4A90E2"
-        android:text="Sair"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnCadastro" />
 </androidx.constraintlayout.widget.ConstraintLayout>

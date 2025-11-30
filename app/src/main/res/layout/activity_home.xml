@@ -61,7 +61,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical"
                         android:paddingStart="8dp"
-                        android:text="Moeda"
+                        android:text="@string/moeda"
                         android:textSize="16sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -72,7 +72,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
                     android:background="@android:drawable/edit_text"
-                    android:hint="Digite o valor em BRL"
+                    android:hint="@string/digite_o_valor"
                     android:inputType="numberDecimal"
                     android:padding="12dp"
                     android:textSize="16sp" />
@@ -83,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:backgroundTint="#4A90E2"
                     android:layout_marginBottom="16dp"
-                    android:text="Converter" />
+                    android:text="@string/converter" />
 
                 <EditText
                     android:id="@+id/ValorResultado"
@@ -94,7 +94,7 @@
                     android:clickable="false"
                     android:enabled="false"
                     android:focusable="false"
-                    android:hint="Valor convertido"
+                    android:hint="@string/valor_convertido"
                     android:padding="12dp"
                     android:textAlignment="center"
                     android:textSize="16dp" />
@@ -109,7 +109,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:backgroundTint="#4A90E2"
-            android:text="Metas"
+            android:text="@string/metas"
             app:layout_constraintEnd_toStartOf="@id/Chatbot"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/Moeda" />
@@ -120,7 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:backgroundTint="#4A90E2"
-            android:text="ChatBot"
+            android:text="@string/chatbot"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/Metas"
             app:layout_constraintTop_toBottomOf="@id/Moeda" />
@@ -131,7 +131,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:backgroundTint="#4A90E2"
-            android:text="Investimento"
+            android:text="@string/investimento"
             app:layout_constraintEnd_toStartOf="@id/btnGastos"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/Metas" />
@@ -142,7 +142,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:backgroundTint="#4A90E2"
-            android:text="Gastos"
+            android:text="@string/gastos"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/btnInvestimento"
             app:layout_constraintTop_toBottomOf="@id/Metas" />
@@ -153,7 +153,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:backgroundTint="#4A90E2"
-            android:text="Documentos"
+            android:text="@string/documentos"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/btnGastos" />

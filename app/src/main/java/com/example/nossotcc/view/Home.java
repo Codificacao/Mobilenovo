@@ -100,10 +100,10 @@ public class Home extends BaseActivity {
             startActivity(intent);
         });
 
-        btnChatbot.setOnClickListener(v -> {
-            Intent intent = new Intent(Home.this, ChatBot.class);
-            startActivity(intent);
-        });
+//        btnChatbot.setOnClickListener(v -> {
+//            Intent intent = new Intent(Home.this, ChatBot.class);
+//            startActivity(intent);
+//        });
 
         btnInvestimento.setOnClickListener(v -> {
             Intent intent = new Intent(Home.this, Investimento.class);

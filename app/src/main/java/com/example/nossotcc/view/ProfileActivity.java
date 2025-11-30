@@ -1,45 +1,43 @@
 package com.example.nossotcc.view;
 
-import android.content.Intent;
-import android.content.SharedPreferences;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.nossotcc.R;
+import com.example.nossotcc.controller.UsuarioController;
+import com.example.nossotcc.model.Usuario;
 
-public class ProfileActivity extends BaseActivity {
+public class ProfileActivity extends AppCompatActivity {
 
-    private ImageView imgProfile;
-    private TextView tvNome, tvEmail, tvDataNasc, tvNacionalidade, tvGenero;
-    private Button btnEditarPerfil;
+    TextView txtNome, txtEmail, txtData, txtNacionalidade, txtGenero;
+    UsuarioController controller;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-//        imgProfile = findViewById(R.id.imgProfile);
-//        tvNome = findViewById(R.id.tvNome);
-//        tvEmail = findViewById(R.id.tvEmail);
-//        tvDataNasc = findViewById(R.id.tvDataNasc);
-//        tvNacionalidade = findViewById(R.id.tvNacionalidade);
-//        tvGenero = findViewById(R.id.tvGenero);
-//        btnEditarPerfil = findViewById(R.id.btnEditarPerfil);
+        txtNome = findViewById(R.id.txtNome);
+        txtEmail = findViewById(R.id.txtEmail);
+        txtData = findViewById(R.id.txtDataNascimento);
+        txtNacionalidade = findViewById(R.id.txtNacionalidade);
+        txtGenero = findViewById(R.id.txtGenero);
 
+        controller = new UsuarioController(this);
 
-        SharedPreferences prefs = getSharedPreferences("user_prefs", MODE_PRIVATE);
-        tvNome.setText("Nome: " + prefs.getString("nomeUsuario", ""));
-        tvEmail.setText("Email: " + prefs.getString("emailUsuario", ""));
-        tvDataNasc.setText("Data de Nascimento: " + prefs.getString("dataNasc", ""));
-        tvNacionalidade.setText("Nacionalidade: " + prefs.getString("nacionalidade", ""));
-        tvGenero.setText("Gênero: " + prefs.getString("genero", ""));
+        int userId = getIntent().getIntExtra("USER_ID", -1);
 
+        if (userId != -1) {
+            Usuario usuario = controller.buscar(userId);
 
-        btnEditarPerfil.setOnClickListener(view -> {
-            Intent intent = new Intent(ProfileActivity.this, Cadastro.class);
-            startActivity(intent);
-        });
+            if (usuario != null) {
+                txtNome.setText(usuario.getUserNome());
+                txtEmail.setText(usuario.getUserEmail());
+                txtData.setText(usuario.getNascimento());
+                txtNacionalidade.setText(usuario.getNacionalidade());
+                txtGenero.setText(usuario.getGenero());
+            }
+        }
     }
 }

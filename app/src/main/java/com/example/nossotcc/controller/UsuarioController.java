@@ -3,6 +3,8 @@ package com.example.nossotcc.controller;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 
 
 import com.example.nossotcc.database.AppDataBase;
@@ -43,9 +45,33 @@ public class UsuarioController extends AppDataBase implements ICrud<Usuario> {
         return false;
     }
     @Override
-    public Usuario buscar(int id){
-        return null;
+    public Usuario buscar(int id) {
+        SQLiteDatabase db = getReadableDatabase();
+
+        Cursor cursor = db.rawQuery(
+                "SELECT * FROM " + UsuarioDataModel.TABELA +
+                        " WHERE " + UsuarioDataModel.ID + " = ?",
+                new String[]{String.valueOf(id)}
+        );
+
+        Usuario usuario = null;
+
+        if (cursor.moveToFirst()) {
+            usuario = new Usuario();
+
+            usuario.setId(cursor.getInt(cursor.getColumnIndexOrThrow(UsuarioDataModel.ID)));
+            usuario.setUserNome(cursor.getString(cursor.getColumnIndexOrThrow(UsuarioDataModel.NOME)));
+            usuario.setUserEmail(cursor.getString(cursor.getColumnIndexOrThrow(UsuarioDataModel.EMAIL)));
+            usuario.setNacionalidade(cursor.getString(cursor.getColumnIndexOrThrow(UsuarioDataModel.NACIONALIDADE)));
+            usuario.setNascimento(cursor.getString(cursor.getColumnIndexOrThrow(UsuarioDataModel.NASCIMENTO)));
+            usuario.setPassword(cursor.getString(cursor.getColumnIndexOrThrow(UsuarioDataModel.SENHA)));
+            usuario.setGenero(cursor.getString(cursor.getColumnIndexOrThrow(UsuarioDataModel.GENERO)));
+        }
+
+        cursor.close();
+        return usuario;
     }
+
 
     @Override
     public List<Usuario> listar() {

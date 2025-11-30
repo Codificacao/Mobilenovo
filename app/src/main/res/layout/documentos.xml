@@ -23,7 +23,7 @@
         android:layout_height="24dp"
         android:background="@android:color/transparent"
         android:backgroundTint="@color/white"
-        android:contentDescription="Voltar"
+        android:contentDescription="@string/voltar"
         android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="@id/container"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +51,7 @@
         android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Organize seus\ndocumentos!"
+        android:text="@string/organize_seus_ndocumentos"
         android:textColor="#000000"
         android:textSize="20sp"
         android:layout_marginTop="24dp"
@@ -75,25 +75,25 @@
         <ImageView
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:contentDescription="Pasta"
+            android:contentDescription="@string/pasta"
             android:layout_margin="16dp" />
 
         <ImageView
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:contentDescription="Pasta"
+            android:contentDescription="@string/pastaa"
             android:layout_margin="16dp" />
 
         <ImageView
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:contentDescription="Pasta"
+            android:contentDescription="@string/pastaaa"
             android:layout_margin="16dp" />
 
         <ImageView
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:contentDescription="Pasta"
+            android:contentDescription="@string/pastaaaa"
             android:layout_margin="16dp" />
     </GridLayout>
 

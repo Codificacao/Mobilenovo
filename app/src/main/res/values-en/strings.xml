@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="selecione_idioma">Selecione o idioma</string>
+    <string name="idioma_pt">Português</string>
+    <string name="idioma_en">Inglês</string>
+    <string name="idioma_es">Espanhol</string>
+    <string name="idioma_fr">Francês</string>
+    <string name="idioma_ht">Crioulo Haitiano</string>
+    <string name="idioma_zh">Chinês</string>
+    <string name="idioma_hi">Hindi</string>
+
+
+    <string name="app_name">Immigrant Economy</string>
+    <string name="desc_btn_idioma">Change language</string>
+    <string name="cadastro">REGISTRATION</string>
+    <string name="inicio">Home</string>
+    <string name="nome">Name:</string>
+    <string name="informe_seu_nome">Enter your name</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="informe_seu_email">Enter your email</string>
+    <string name="data_de_nascimento">Date of Birth:</string>
+    <string name="nascimento">Birth</string>
+    <string name="nacionalidade">Nationality:</string>
+    <string name="senha">Password:</string>
+    <string name="crie_uma_senha">Create a password</string>
+    <string name="exibir_senha">Show password</string>
+    <string name="confirmar_senha">Confirm Password:</string>
+    <string name="confirme_sua_senha">Confirm your password</string>
+    <string name="exibir_senhaa">Show password</string>
+    <string name="g_nero">Gender:</string>
+    <string name="feminino">Female</string>
+    <string name="masculino">Male</string>
+    <string name="prefiro_n_o_informar">Prefer not to say</string>
+    <string name="outros">Other</string>
+    <string name="cadastrar">REGISTER</string>
+    <string name="recuperar_senha">Recover Password</string>
+    <string name="digite_seu_e_mail">Enter your e-mail</string>
+    <string name="enviar_e_mail_de_redefini_o">Send reset e-mail</string>
+    <string name="voltar_ao_login">Back to Login</string>
+    <string name="moeda">Currency</string>
+    <string name="digite_o_valor">Enter the amount:</string>
+    <string name="converter">Convert</string>
+    <string name="valor_convertido">Converted value</string>
+    <string name="metas">Goals</string>
+    <string name="chatbot">ChatBot</string>
+    <string name="investimento">Investment</string>
+    <string name="gastos">Expenses</string>
+    <string name="documentos">Documents</string>
+    <string name="login">LOGIN</string>
+    <string name="inicioo">Home</string>
+    <string name="digite_seu_email">Enter your email</string>
+    <string name="senhaa">Password:</string>
+    <string name="esqueceu_a_senha">Forgot password?</string>
+    <string name="digite_sua_senha">Enter your password</string>
+    <string name="exibir_senhaaa">Show password</string>
+    <string name="logar">LOGIN</string>
+    <string name="n_o_tem_conta_cadastre_se">Don t have an account? Sign up!</string>
+    <string name="t_tulo_da_meta">Goal title</string>
+    <string name="descri_o">Description</string>
+    <string name="valor_r">Amount (R$)</string>
+    <string name="adicionar_meta">Add Goal</string>
+    <string name="listar_metas">List Goals</string>
+    <string name="ndice_da_meta_para_remover">Index of the goal to remove</string>
+    <string name="remover_meta">Remove Goal</string>
+    <string name="voltar_para_home">Back to Home</string>
+    <string name="loginn">Login</string>
+    <string name="cadastroo">Registration</string>
+    <string name="descri_oo">Description</string>
+    <string name="valor">Amount</string>
+    <string name="categoria">Category</string>
+    <string name="data_dd_mm_aaaa">Date (DD/MM/YYYY)</string>
+    <string name="forma_de_pagamento">Payment Method</string>
+    <string name="observa_es">Notes</string>
+    <string name="adicionar">Add</string>
+    <string name="voltar_para_homeo">Back to Home</string>
+    <string name="voltar">Back</string>
+    <string name="organize_seus_ndocumentos">Organize your\ndocuments!</string>
+    <string name="pasta">Folder</string>
+    <string name="pastaa">Folder</string>
+    <string name="pastaaa">Folder</string>
+    <string name="pastaaaa">Folder</string>
+
+</resources>

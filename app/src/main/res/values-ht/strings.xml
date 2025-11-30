@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="selecione_idioma">Selecione o idioma</string>
+    <string name="idioma_pt">Português</string>
+    <string name="idioma_en">Inglês</string>
+    <string name="idioma_es">Espanhol</string>
+    <string name="idioma_fr">Francês</string>
+    <string name="idioma_ht">Crioulo Haitiano</string>
+    <string name="idioma_zh">Chinês</string>
+    <string name="idioma_hi">Hindi</string>
+
+        <string name="app_name">Immigrant Economy</string>
+        <string name="desc_btn_idioma">Chanje lang</string>
+        <string name="cadastro">ENREGISTREMAN</string>
+        <string name="inicio">Akèy</string>
+        <string name="nome">Non:</string>
+        <string name="informe_seu_nome">Antre non ou</string>
+        <string name="e_mail">Imèl:</string>
+        <string name="informe_seu_email">Antre imèl ou</string>
+        <string name="data_de_nascimento">Dat nesans:</string>
+        <string name="nascimento">Nesans</string>
+        <string name="nacionalidade">Nasyonalite:</string>
+        <string name="senha">Modpas:</string>
+        <string name="crie_uma_senha">Kreye yon modpas</string>
+        <string name="exibir_senha">Montre modpas</string>
+        <string name="confirmar_senha">Konfime modpas:</string>
+        <string name="confirme_sua_senha">Konfime modpas ou</string>
+        <string name="exibir_senhaa">Montre modpas</string>
+        <string name="g_nero">Sèks:</string>
+        <string name="feminino">Fi</string>
+        <string name="masculino">Gason</string>
+        <string name="prefiro_n_o_informar">Mwen pa vle di</string>
+        <string name="outros">Lòt</string>
+        <string name="cadastrar">ENREGISTRE</string>
+        <string name="recuperar_senha">Rekipere modpas</string>
+        <string name="digite_seu_e_mail">Antre imèl ou</string>
+        <string name="enviar_e_mail_de_redefini_o">Voye imèl reinitializasyon</string>
+        <string name="voltar_ao_login">Retounen nan koneksyon</string>
+        <string name="moeda">Lajan</string>
+        <string name="digite_o_valor">Antre valè a:</string>
+        <string name="converter">Konvèti</string>
+        <string name="valor_convertido">Valè konvèti</string>
+        <string name="metas">Objektif</string>
+        <string name="chatbot">ChatBot</string>
+        <string name="investimento">Envestisman</string>
+        <string name="gastos">Depans</string>
+        <string name="documentos">Dokiman</string>
+        <string name="login">KONEKSYON</string>
+        <string name="inicioo">Akèy</string>
+        <string name="digite_seu_email">Antre imèl ou</string>
+        <string name="senhaa">Modpas:</string>
+        <string name="esqueceu_a_senha">Bliye modpas?</string>
+        <string name="digite_sua_senha">Antre modpas ou</string>
+        <string name="exibir_senhaaa">Montre modpas</string>
+        <string name="logar">ANTRE</string>
+        <string name="n_o_tem_conta_cadastre_se">Ou pa gen kont? Enskri!</string>
+        <string name="t_tulo_da_meta">Tit objektif</string>
+        <string name="descri_o">Deskripsyon</string>
+        <string name="valor_r">Valè (R$)</string>
+        <string name="adicionar_meta">Ajoute objektif</string>
+        <string name="listar_metas">Lis objektif yo</string>
+        <string name="ndice_da_meta_para_remover">Endèks objektif pou retire</string>
+        <string name="remover_meta">Retire objektif</string>
+        <string name="voltar_para_home">Retounen lakay</string>
+        <string name="loginn">Koneksyon</string>
+        <string name="cadastroo">Enskripsyon</string>
+        <string name="descri_oo">Deskripsyon</string>
+        <string name="valor">Valè</string>
+        <string name="categoria">Kategori</string>
+        <string name="data_dd_mm_aaaa">Dat (JJ/MM/AAAA)</string>
+        <string name="forma_de_pagamento">Fòm peman</string>
+        <string name="observa_es">Nòt</string>
+        <string name="adicionar">Ajoute</string>
+        <string name="voltar_para_homeo">Retounen lakay</string>
+        <string name="voltar">Retounen</string>
+        <string name="organize_seus_ndocumentos">Òganize\ndokiman ou!</string>
+        <string name="pasta">Katab</string>
+        <string name="pastaa">Katab</string>
+        <string name="pastaaa">Katab</string>
+        <string name="pastaaaa">Katab</string>
+
+
+</resources>
