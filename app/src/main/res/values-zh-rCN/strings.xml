@@ -80,4 +80,25 @@
         <string name="pastaaa">文件夹</string>
         <string name="pastaaaa">文件夹</string>
 
+        <string name="investimentos_titulo">投资：在新国家建立财务安全</string>
+        <string name="investimentos_texto">投资是确保持久财务安全并随着时间积累财富的最有效方式之一。对于移民而言，他们常常面临文化适应、意外支出以及获取金融信息困难等挑战，了解投资可能是实现所在国稳定与机会的重要一步。\n\n与单纯储蓄不同，投资意味着让你的资金为你工作，使其随时间增值。这通过利息、资产升值和各种收益实现，能够帮助你达成短期、中期和长期的财务目标。\n\n投资类型：\n\n固定收益：适合追求安全和可预见收益的人。示例包括储蓄、国债和银行定期（CDB）。\n\n浮动收益：收益不保证且可能波动的投资，如股票、房地产基金（REITs/基金）和ETF。\n\n投资基金：允许一组投资者集合资金，由专业人士管理，从而实现风险分散。\n\n替代投资：如加密货币、初创公司或个人经营的生意，可能带来高回报，但需要谨慎管理风险。\n\n安全投资的基本原则：\n- 自我金融教育。\n- 明确目标。\n- 规划时间期限。\n- 分散投资。\n- 从小额开始。\n\n重要风险与注意事项：\n- 市场风险：股票、基金或房地产价格波动可能导致投资价值下降。\n- 信用风险：部分投资依赖金融机构；若其未履约，可能出现损失。\n- 流动性风险：某些投资无法快速变现，或变现会导致价值损失。\n\n成功投资是一种持续的习惯，需要纪律、耐心和不断学习。即便在新的国家，你也可以通过让资源为你工作来建立财务安全与独立。</string>
+
+    <string-array name="categorias_array">
+        <item>餐饮</item>
+        <item>交通</item>
+        <item>娱乐</item>
+        <item>教育</item>
+        <item>健康</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="formas_pagamento_array">
+        <item>现金</item>
+        <item>信用卡</item>
+        <item>借记卡</item>
+        <item>Pix</item>
+        <item>银行转账</item>
+        <item>其他</item>
+    </string-array>
+
 </resources>

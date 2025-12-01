@@ -80,4 +80,25 @@
     <string name="pastaaa">Carpeta</string>
     <string name="pastaaaa">Carpeta</string>
 
+    <string name="investimentos_titulo">Inversiones: Construyendo seguridad financiera en un nuevo país</string>
+    <string name="investimentos_texto">Invertir es una de las formas más eficaces de garantizar seguridad financiera y de construir patrimonio a lo largo del tiempo. Para los inmigrantes, que a menudo enfrentan desafíos como la adaptación cultural, costos inesperados y dificultades para acceder a información financiera, comprender las inversiones puede ser un paso esencial para alcanzar estabilidad y oportunidades en el país donde viven.\n\nA diferencia de simplemente ahorrar dinero, invertir significa poner su capital a trabajar para que crezca con el tiempo. Esto ocurre mediante intereses, la valorización de activos y diferentes tipos de rendimientos, que pueden ayudarle a alcanzar objetivos financieros a corto, medio y largo plazo.\n\nTipos de inversiones:\n\nRenta fija: indicada para quienes buscan seguridad y previsibilidad. Ejemplos incluyen cuentas de ahorro, bonos públicos y CDBs.\n\nRenta variable: inversiones cuyo rendimiento no está garantizado y puede oscilar, como acciones, fondos inmobiliarios y ETF.\n\nFondos de inversión: permiten que un grupo de inversores agrupe dinero, diversificando riesgos y siendo gestionados por profesionales.\n\nInversiones alternativas: activos como criptomonedas, startups o negocios propios, que pueden ofrecer altos rendimientos pero requieren gestión cuidadosa del riesgo.\n\nPrincipios básicos para invertir con seguridad:\n- Edúquese financieramente.\n- Defina sus objetivos.\n- Planifique el horizonte temporal.\n- Diversifique.\n- Comience con pequeñas cantidades.\n\nRiesgos y cuidados importantes:\n- Riesgo de mercado: las variaciones de precios pueden reducir el valor de la inversión.\n- Riesgo de crédito: algunas inversiones dependen de instituciones; si fallan, puede haber pérdida.\n- Riesgo de liquidez: algunos instrumentos no pueden rescatarse rápidamente sin pérdida de valor.\n\nInvertir con éxito es una práctica continua que requiere disciplina, paciencia y aprendizaje constante. Incluso en un nuevo país, puede construir seguridad e independencia financiera haciendo que sus recursos trabajen para usted.</string>
+
+    <string-array name="categorias_array">
+        <item>Alimentación</item>
+        <item>Transporte</item>
+        <item>Ocio</item>
+        <item>Educación</item>
+        <item>Salud</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="formas_pagamento_array">
+        <item>Efectivo</item>
+        <item>Crédito</item>
+        <item>Débito</item>
+        <item>Pix</item>
+        <item>Transferencia</item>
+        <item>Otros</item>
+    </string-array>
+
 </resources>

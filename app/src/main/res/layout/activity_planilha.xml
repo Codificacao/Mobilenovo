@@ -21,31 +21,22 @@
         android:minHeight="48dp" />
 
     <EditText
-        android:id="@+id/edtCategoria"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/categoria"
-        android:minHeight="48dp" />
-
-    <EditText
         android:id="@+id/edtData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/data_dd_mm_aaaa"
         android:minHeight="48dp" />
 
-    <EditText
-        android:id="@+id/edtFormaPagamento"
+    100<Spinner
+        android:id="@+id/spnCategoria"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/forma_de_pagamento"
         android:minHeight="48dp" />
 
-    <EditText
-        android:id="@+id/edtObservacoes"
+    <Spinner
+        android:id="@+id/spnFormaPagamento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/observa_es"
         android:minHeight="48dp" />
 
     <Button

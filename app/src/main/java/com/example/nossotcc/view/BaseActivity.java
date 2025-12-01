@@ -1,7 +1,5 @@
 package com.example.nossotcc.view;
 
-// Pacote da sua aplicação
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,7 +9,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.nossotcc.R;
 
-// Torne a classe abstrata para que ela não possa ser instanciada diretamente
 public abstract class BaseActivity extends AppCompatActivity {
 
     @Override
@@ -19,7 +16,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
     }
 
-    // Este método infla (cria) o menu de opções na AppBar
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_principal, menu);
@@ -39,15 +36,14 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     private void fazerLogout() {
-        // Cria uma Intent para voltar para a tela de Login (MainActivity)
+
         Intent intent = new Intent(this, Pagina01.class);
 
-        // Adiciona flags para limpar o histórico de telas
-        // Isso impede que o usuário volte para as telas internas usando o botão "Voltar" do celular
+
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
 
         startActivity(intent);
-        finish(); // Finaliza a atividade atual
+        finish();
     }
 }
 

@@ -81,4 +81,25 @@
     <string name="pastaaa">Folder</string>
     <string name="pastaaaa">Folder</string>
 
+        <string name="investimentos_titulo">Investments: Building financial security in a new country</string>
+        <string name="investimentos_texto">Investing is one of the most effective ways to ensure financial security and to build wealth over time. For immigrants, who often face challenges such as cultural adaptation, unexpected costs, and limited access to financial information, understanding investments can be an essential step toward achieving stability and opportunities in the country where they live.\n\nUnlike simply saving money, investing means putting your capital to work so it can grow over time. This happens through interest, asset appreciation, and various types of returns, which can help you reach short-, medium- and long-term financial goals.\n\nTypes of investments:\n\nFixed income: suitable for those seeking safety and predictability. Examples include savings accounts, government bonds, and bank certificates (CDBs).\n\nVariable income: investments whose returns are not guaranteed and can fluctuate, such as stocks, real estate funds, and ETFs.\n\nInvestment funds: allow a group of investors to pool money, diversifying risk and being managed by professionals.\n\nAlternative investments: assets like cryptocurrencies, startups, or small businesses, which may offer high returns but require careful risk management.\n\nBasic principles for investing safely:\n- Educate yourself financially.\n- Define your objectives.\n- Plan your time horizon.\n- Diversify.\n- Start with small amounts.\n\nRisks and important considerations:\n- Market risk: price fluctuations of stocks, funds or real estate can reduce the value of the investment.\n- Credit risk: some investments depend on financial institutions; if they fail to meet obligations, you may lose money.\n- Liquidity risk: some investments cannot be quickly redeemed without loss of value.\n\nSuccessful investing is a continuous habit that requires discipline, patience, and ongoing learning. Even in a new country, you can build financial security and independence by making your resources work for you, not the other way around.</string>
+
+    <string-array name="categorias_array">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Leisure</item>
+        <item>Education</item>
+        <item>Health</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="formas_pagamento_array">
+        <item>Cash</item>
+        <item>Credit</item>
+        <item>Debit</item>
+        <item>Pix</item>
+        <item>Bank transfer</item>
+        <item>Other</item>
+    </string-array>
+
 </resources>

@@ -80,4 +80,44 @@
         <string name="pastaaa">Dossier</string>
         <string name="pastaaaa">Dossier</string>
 
+        <string name="investimentos_titulo">Investissements : Construire une sécurité financière dans un nouveau pays</string>
+    <string name="investimentos_texto">
+Investir est l un des moyens les plus efficaces de garantir une securite financiere et de constituer un patrimoine a long terme. Pour les immigres, qui sont souvent confrontes a des defis tels que l adaptation culturelle, des couts imprevus et un acces limite aux informations financieres, comprendre les investissements peut etre une etape essentielle pour atteindre stabilite et opportunites dans le pays ou ils vivent.\n\n
+Contrairement a l epargne simple, investir signifie mettre votre capital au travail afin qu il puisse croitre au fil du temps. Cela se produit grace aux interets, a l appreciation des actifs et a differents types de rendements, qui peuvent vous aider a atteindre des objectifs financiers a court, moyen et long terme.\n\n
+Types d investissements :\n\n
+Revenu fixe : adapte a ceux qui recherchent securite et previsibilite. Exemples : comptes d epargne, obligations d Etat et CDB.\n\n
+Revenu variable : investissements dont les rendements ne sont pas garantis et peuvent fluctuer, comme les actions, les fonds immobiliers et les ETF.\n\n
+Fonds d investissement : permettent a un groupe d investisseurs de mutualiser des ressources, diversifiant ainsi les risques et etant geres par des professionnels.\n\n
+Investissements alternatifs : actifs tels que cryptomonnaies, startups ou entreprises personnelles, pouvant offrir des rendements eleves mais necessitant une gestion prudente des risques.\n\n
+Principes de base pour investir en toute securite :\n
+- Formez vous a la finance.\n
+- Definissez vos objectifs.\n
+- Planifiez votre horizon temporel.\n
+- Diversifiez.\n
+- Commencez avec de petites sommes.\n\n
+Risques et precautions importants :\n
+- Risque de marche : les variations de prix peuvent reduire la valeur de l investissement.\n
+- Risque de credit : certains investissements dependent d institutions ; si elles ne remplissent pas leurs obligations, vous pouvez subir des pertes.\n
+- Risque de liquidite : certains investissements ne peuvent pas etre rachetes rapidement sans perte de valeur.\n\n
+Reussir dans l investissement est une pratique continue qui demande discipline, patience et apprentissage constant. Meme dans un nouveau pays, vous pouvez construire securite et independance financieres en faisant travailler vos ressources pour vous.
+</string>
+
+    <string-array name="categorias_array">
+        <item>Alimentation</item>
+        <item>Transport</item>
+        <item>Loisir</item>
+        <item>Éducation</item>
+        <item>Santé</item>
+        <item>Autres</item>
+    </string-array>
+
+    <string-array name="formas_pagamento_array">
+        <item>Espèces</item>
+        <item>Crédit</item>
+        <item>Débit</item>
+        <item>Pix</item>
+        <item>Virement</item>
+        <item>Autres</item>
+    </string-array>
+
 </resources>

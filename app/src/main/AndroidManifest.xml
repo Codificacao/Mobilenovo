@@ -14,9 +14,6 @@
         android:supportsRtl="true"
         android:theme="@style/Base.Theme.Immigrant_Economy">
         <activity
-            android:name=".view.ChatBot"
-            android:exported="false" />
-        <activity
             android:name=".view.ProfileActivity"
             android:exported="false" />
         <activity

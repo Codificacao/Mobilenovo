@@ -11,12 +11,15 @@ import android.widget.Toast;
 
 import androidx.appcompat.widget.Toolbar;
 
+
 import com.example.nossotcc.R;
 import com.example.nossotcc.controller.ConversorController;
 import com.example.nossotcc.controller.GastoController;
 import com.example.nossotcc.model.Conversao;
 import com.example.nossotcc.model.Gasto;
+import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.PieChart;
+import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
@@ -56,7 +59,6 @@ public class Home extends BaseActivity {
         Button btnInvestimento = findViewById(R.id.btnInvestimento);
         Button btnGastos = findViewById(R.id.btnGastos);
         Button btnFacilitador = findViewById(R.id.btnFacilitador);
-
 
 
         SharedPreferences prefs = getSharedPreferences("user_prefs", MODE_PRIVATE);
@@ -129,36 +131,54 @@ public class Home extends BaseActivity {
     private void carregarGrafico() {
         List<Gasto> gastos = gastoController.listar();
 
-        Map<String, Double> totaisPorCategoria = new HashMap<>();
+        Map<String, Float> totaisPorCategoria = new HashMap<>();
         Map<String, Integer> coresPorCategoria = new HashMap<>();
+
 
         coresPorCategoria.put("Alimentação", Color.parseColor("#FF6384"));
         coresPorCategoria.put("Transporte", Color.parseColor("#36A2EB"));
         coresPorCategoria.put("Lazer", Color.parseColor("#FFCE56"));
         coresPorCategoria.put("Educação", Color.parseColor("#4CAF50"));
         coresPorCategoria.put("Saúde", Color.parseColor("#9C27B0"));
-        coresPorCategoria.put("Outros", Color.parseColor("#FF9800"));
+        coresPorCategoria.put("Moradia", Color.parseColor("#FF5722"));
+        coresPorCategoria.put("Contas", Color.parseColor("#795548"));
+        coresPorCategoria.put("Compras", Color.parseColor("#009688"));
+        coresPorCategoria.put("Outros", Color.parseColor("#9E9E9E"));
+
 
         for (Gasto g : gastos) {
-            double total = totaisPorCategoria.getOrDefault(g.getCategoria(), 0.0);
-            totaisPorCategoria.put(g.getCategoria(), total + g.getValor());
+            float total = totaisPorCategoria.getOrDefault(g.getCategoria(), 0f);
+            totaisPorCategoria.put(g.getCategoria(), total + (float) g.getValor());
         }
 
         ArrayList<PieEntry> entries = new ArrayList<>();
         ArrayList<Integer> colors = new ArrayList<>();
 
         for (String categoria : totaisPorCategoria.keySet()) {
-            entries.add(new PieEntry(totaisPorCategoria.get(categoria).floatValue(), categoria));
+            entries.add(new PieEntry(totaisPorCategoria.get(categoria), categoria));
             colors.add(coresPorCategoria.getOrDefault(categoria, Color.GRAY));
         }
 
-        PieDataSet dataSet = new PieDataSet(entries, "Gastos por Categoria");
+        PieDataSet dataSet = new PieDataSet(entries, "");
         dataSet.setColors(colors);
+        dataSet.setSliceSpace(3f);
+        dataSet.setValueTextSize(12f);
+        dataSet.setValueTextColor(Color.WHITE);
 
         PieData data = new PieData(dataSet);
+
         pieChart.setData(data);
+        pieChart.setUsePercentValues(false);
+        pieChart.setDrawHoleEnabled(true);
+        pieChart.setHoleRadius(45f);
+        pieChart.setTransparentCircleRadius(50f);
+        pieChart.getDescription().setEnabled(false);
+        pieChart.getLegend().setTextSize(13f);
+        pieChart.getLegend().setFormSize(13f);
+
         pieChart.invalidate();
     }
+
 }
 
 

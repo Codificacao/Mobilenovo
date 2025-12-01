@@ -9,7 +9,6 @@ public class GastoDataModel {
     public static final String CATEGORIA = "categoria";
     public static final String DATA = "data";
     public static final String FORMA_PAGAMENTO = "forma_pagamento";
-    public static final String OBSERVACOES = "observacoes";
     public static final String RECORRENTE = "recorrente";
     public static final String TAG = "tag";
 
@@ -21,9 +20,9 @@ public class GastoDataModel {
                 CATEGORIA + " TEXT, " +
                 DATA + " TEXT, " +
                 FORMA_PAGAMENTO + " TEXT, " +
-                OBSERVACOES + " TEXT, " +
                 RECORRENTE + " INTEGER, " +
                 TAG + " TEXT " +
                 ")";
     }
 }
+

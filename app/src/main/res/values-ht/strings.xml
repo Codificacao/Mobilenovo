@@ -80,5 +80,25 @@
         <string name="pastaaa">Katab</string>
         <string name="pastaaaa">Katab</string>
 
+        <string name="investimentos_titulo">Envestisman: Bati sekirite finansye nan yon nouvo peyi</string>
+        <string name="investimentos_texto">Envesti se youn nan fason ki pi efikas pou garanti sekirite finansye epi konstwi patrimwàn sou tan. Pou imigran, ki souvan fè fas ak defi tankou adaptasyon kiltirèl, depans enprevwa ak difikilte pou jwenn enfòmasyon finansye, konprann envestisman ka yon etap esansyèl pou jwenn estabilite ak opòtinite nan peyi kote yo rete a.\n\nOkontrè pou sèlman ekonomize lajan, envesti vle di mete kapital ou ap travay pou l grandi sou tan. Sa fèt atravè enterè, ogmantasyon valè byen ak divès kalite retou, ki ka ede w reyalize objektif finansye kout, mwayen ak long tèm.\n\nKalite envestisman:\n\nRevni fiks: apwopriye pou moun kap chèche sekirite ak previsibilite. Egzanp: kont ekonomi, tit gouvènman ak CDB.\n\nRevni varyab: envestisman kote retou yo pa garanti e yo ka varye, tankou aksyon, fon imobilye ak ETF.\n\nFon envestisman: pèmèt yon gwoup envestisè mete lajan ansanm, sa redui risk epi pwofesyonèl jere yo.\n\nEnvestisman altènatif: byen tankou kriptomonè, demaraj oswa biznis pwòp, ki ka ofri gwo retou men mande jesyon risk ak anpil atansyon.\n\nPrensip debaz pou envesti avèk sekirite:\n- Edike tèt ou sou finans.\n- Defini objektif ou.\n- Planifye orizon tan ou.\n- Diversifye.\n- Kòmanse ak ti montan.\n\nRisk ak prekosyon enpòtan:\n- Risk mache: fluctuation pri ka diminye valè envestisman an.\n- Risk kredi: kèk envestisman depann sou enstitisyon finansye; si yo pa respekte obligasyon yo, ou ka pèdi lajan.\n- Risk likidite: kèk envestisman pa ka retire rapid san pèdi valè.\n\nEnvesti avèk siksè se yon abitid kontinyèl ki mande disiplin, pasyans ak aprantisaj toujou ap fèt. Menm nan yon nouvo peyi, ou kapab bati sekirite ak endepandans finansye lè w fè resous ou yo travay pou ou.</string>
+
+    <string-array name="categorias_array">
+        <item>Manje</item>
+        <item>Transpò</item>
+        <item>Lizè</item>
+        <item>Edikasyon</item>
+        <item>Sante</item>
+        <item>Lòt</item>
+    </string-array>
+
+    <string-array name="formas_pagamento_array">
+        <item>Lajan kach</item>
+        <item>Kredi</item>
+        <item>Debi</item>
+        <item>Pix</item>
+        <item>Transfè</item>
+        <item>Lòt</item>
+    </string-array>
 
 </resources>

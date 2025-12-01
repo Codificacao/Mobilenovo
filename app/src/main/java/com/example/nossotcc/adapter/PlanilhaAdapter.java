@@ -4,10 +4,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
 import com.example.nossotcc.R;
 import com.example.nossotcc.model.Gasto;
+
 import java.util.List;
 
 public class PlanilhaAdapter extends RecyclerView.Adapter<PlanilhaAdapter.ViewHolder> {
@@ -29,12 +32,12 @@ public class PlanilhaAdapter extends RecyclerView.Adapter<PlanilhaAdapter.ViewHo
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Gasto g = gastos.get(position);
+
         holder.txtDescricao.setText(g.getDescricao());
-        holder.txtValor.setText("R$ " + g.getValor());
+        holder.txtValor.setText(String.format("R$ %.2f", g.getValor()));
         holder.txtCategoria.setText(g.getCategoria());
         holder.txtData.setText(g.getData());
         holder.txtFormaPagamento.setText(g.getFormaPagamento());
-        holder.txtObs.setText(g.getObservacoes());
     }
 
     @Override
@@ -43,15 +46,17 @@ public class PlanilhaAdapter extends RecyclerView.Adapter<PlanilhaAdapter.ViewHo
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        TextView txtDescricao, txtValor, txtCategoria, txtData, txtFormaPagamento, txtObs;
+
+        TextView txtDescricao, txtValor, txtCategoria, txtData, txtFormaPagamento;
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+
             txtDescricao = itemView.findViewById(R.id.txtNome);
             txtValor = itemView.findViewById(R.id.txtValor);
             txtCategoria = itemView.findViewById(R.id.txtCategoria);
             txtData = itemView.findViewById(R.id.txtData);
             txtFormaPagamento = itemView.findViewById(R.id.txtFormaPagamento);
-            txtObs = itemView.findViewById(R.id.txtObservacoes);
         }
     }
 }
