@@ -20,9 +20,9 @@ public class EsqueceuSenhaActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_esqueceu_senha);
 
-        emailRecuperacao = findViewById(R.id.email_recuperacao);
-        btnRecuperar = findViewById(R.id.btn_recuperar);
-        btnVoltar = findViewById(R.id.btn_voltar_login);
+        emailRecuperacao = findViewById(R.id.emailRecuperacao);
+        btnRecuperar = findViewById(R.id.btnRecuperar);
+        btnVoltar = findViewById(R.id.btnVoltarLogin);
 
         mAuth = FirebaseAuth.getInstance();
 
