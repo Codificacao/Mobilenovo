@@ -21,7 +21,7 @@ public class ConversorController {
         taxasConversao.put("CNY", 0.76);
         taxasConversao.put("INR", 0.063);
         taxasConversao.put("AOA", 0.0098);
-        // adicione outras moedas que desejar
+
     }
 
     public interface ConversaoListener {

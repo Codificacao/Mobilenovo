@@ -14,13 +14,28 @@
         android:supportsRtl="true"
         android:theme="@style/Base.Theme.Immigrant_Economy">
         <activity
+            android:name=".view.DigitarPinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.CriarPinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ExibirFotoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.FullScreenPhotoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.FolderActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.ProfileActivity"
             android:exported="false" />
         <activity
             android:name=".view.EsqueceuSenhaActivity"
             android:exported="false" />
         <activity
-            android:name=".view.Facilitador"
+            android:name=".view.Documentos"
             android:exported="false" />
         <activity
             android:name=".view.Investimento"

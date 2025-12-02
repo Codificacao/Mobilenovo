@@ -1,5 +1,7 @@
 package com.example.nossotcc.view;
 
+import static androidx.core.content.ContextCompat.startActivity;
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -15,6 +17,7 @@ import androidx.appcompat.widget.Toolbar;
 import com.example.nossotcc.R;
 import com.example.nossotcc.controller.ConversorController;
 import com.example.nossotcc.controller.GastoController;
+import com.example.nossotcc.controller.PinManager;
 import com.example.nossotcc.model.Conversao;
 import com.example.nossotcc.model.Gasto;
 import com.github.mikephil.charting.animation.Easing;
@@ -118,9 +121,13 @@ public class Home extends BaseActivity {
         });
 
         btnFacilitador.setOnClickListener(v -> {
-            Intent intent = new Intent(Home.this, Facilitador.class);
-            startActivity(intent);
+            if (PinManager.existePin(this)) {
+                startActivity(new Intent(this, DigitarPinActivity.class));
+            } else {
+                startActivity(new Intent(this, CriarPinActivity.class));
+            }
         });
+
 
         pieChart = findViewById(R.id.pieChart);
         gastoController = new GastoController(this);

@@ -14,20 +14,21 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
-
-
-            }
+    }
 
     buildFeatures {
         viewBinding = true
         buildConfig = true
-
     }
 
-
+    // >>> ADICIONADO PARA REMOVER O WARNING <<<
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
 
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "11"
     }
 }
 
@@ -52,8 +53,6 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:34.4.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-auth")
-
-
 
     // Libs do catálogo
     implementation(libs.activity)
