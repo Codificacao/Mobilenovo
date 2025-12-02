@@ -6,10 +6,12 @@ import android.widget.EditText;
 import android.widget.Toast;
 import android.content.Intent;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.nossotcc.R;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class EsqueceuSenhaActivity extends BaseActivity {
+public class EsqueceuSenhaActivity extends AppCompatActivity {
 
     private EditText emailRecuperacao;
     private Button btnRecuperar, btnVoltar;

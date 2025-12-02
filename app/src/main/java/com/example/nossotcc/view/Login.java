@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -17,7 +18,7 @@ import com.example.nossotcc.R;
 import com.example.nossotcc.controller.UsuarioController;
 
 
-public class Login extends BaseActivity {
+public class Login extends AppCompatActivity {
 
     UsuarioController controller;
     EditText username, password;

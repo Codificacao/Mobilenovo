@@ -12,6 +12,8 @@ import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.nossotcc.R;
 import com.example.nossotcc.controller.UsuarioController;
 import com.example.nossotcc.model.Usuario;
@@ -21,7 +23,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class Cadastro extends BaseActivity {
+public class Cadastro extends AppCompatActivity {
 
     private EditText nome, email, dataNasc, senha, confSenha;
     private Spinner nacionalidade;

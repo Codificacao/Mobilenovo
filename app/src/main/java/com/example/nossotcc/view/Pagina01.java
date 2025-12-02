@@ -7,11 +7,13 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.nossotcc.R;
 
 import java.util.Locale;
 
-public class Pagina01 extends BaseActivity {
+public class Pagina01 extends AppCompatActivity {
 
     Button btnLogin, btnCadastro;
     ImageButton btnIdioma;

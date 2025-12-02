@@ -1,13 +1,16 @@
 <resources>
 
     <string name="selecione_idioma">Selecione o idioma</string>
+
     <string name="idioma_pt">Português</string>
-    <string name="idioma_en">Inglês</string>
-    <string name="idioma_es">Espanhol</string>
-    <string name="idioma_fr">Francês</string>
-    <string name="idioma_ht">Crioulo Haitiano</string>
-    <string name="idioma_zh">Chinês</string>
-    <string name="idioma_hi">Hindi</string>
+    <string name="idioma_en">English</string>
+    <string name="idioma_es">Español</string>
+    <string name="idioma_fr">Français</string>
+    <string name="idioma_ht">Kreyòl Ayisyen</string>
+    <string name="idioma_zh">中文 (Zhōngwén)</string>
+    <string name="idioma_hi">हिन्दी (Hindi)</string>
+
+
 
     <string name="app_name">Immigrant Economy</string>
     <string name="desc_btn_idioma">Mudar idioma</string>
@@ -108,15 +111,16 @@
 
 
     <string-array name="paises">
-        <item>Venezuelanos</item>
-        <item>Haitianos</item>
-        <item>Cubanos</item>
-        <item>Bolivianos</item>
-        <item>Argentinos</item>
-        <item>China</item>
-        <item>Índia</item>
-        <item>Angola</item>
+        <item>Venezolanos</item>      <!-- Espanhol -->
+        <item>Ayisyen</item>          <!-- Crioulo Haitiano -->
+        <item>Cubanos</item>          <!-- Espanhol -->
+        <item>Bolivianos</item>       <!-- Espanhol -->
+        <item>Argentinos</item>       <!-- Espanhol -->
+        <item>中国人 (Zhōngguó rén)</item>  <!-- Chinês -->
+        <item>भारतीय (Bhāratīya)</item>     <!-- Hindi -->
+        <item>Angolanos</item>        <!-- Português -->
     </string-array>
+
 
     <string-array name="idiomas_array">
         <item>Português</item>

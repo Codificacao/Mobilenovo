@@ -7,13 +7,15 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.nossotcc.R;
 import com.example.nossotcc.controller.MetaController;
 import com.example.nossotcc.model.Meta;
 
 import java.util.List;
 
-public class MetaActivity extends BaseActivity {
+public class MetaActivity extends AppCompatActivity {
 
     private MetaController metaController;
 

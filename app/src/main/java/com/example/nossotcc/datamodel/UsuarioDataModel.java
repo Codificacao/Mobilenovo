@@ -1,7 +1,9 @@
 package com.example.nossotcc.datamodel;
 
 public class UsuarioDataModel {
+
     public static final String TABELA = "usuarios";
+
     public static final String ID = "id";
     public static final String NOME = "nome";
     public static final String EMAIL = "email";
